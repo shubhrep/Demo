@@ -1,0 +1,26 @@
+$profileHeadColor : #B4AEE8;
+
+ .profile-container , .profile-edit{
+    padding-top: 5rem;
+    .labels {
+        font-size: 11px;
+        bottom: 1vh
+    }
+    .profile-pic {    
+        object-fit: contain;
+    }
+    .profile-header {
+        transform: translateY(5rem);
+    }
+    .edit-button{
+        width: 35%;
+        
+    }
+    .profileedit{
+        background-color: $profileHeadColor;
+    }
+    .profileHead{
+        background-color: $profileHeadColor; 
+    }
+}
+

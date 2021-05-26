@@ -1,0 +1,451 @@
+{
+  "music": [
+    {
+      "id": 0,
+      "hindi": [
+        {
+          "id": 0,
+          "album": "Top 10 Hindi",
+          "image": "../assets/images/albums/top10.jpeg",
+          "Top 10 Hindi": [
+            {
+              "id": 0,
+              "title": "Baarish Ki Jaye",
+              "artist": "Arijit Singh",
+              "image": "../assets/images/hindi/1baarish.jpeg",
+              "song": "../assets/audio/hindi/Baarish_ki_jaye.mp3",
+              "duration": "4 mins 27 Sec",
+              "genre": "Jaaz"
+            },
+            {
+              "id": 1,
+              "title": "Is-Qudar",
+              "artist": "Darshan Ravel And Tulsi Kumar",
+              "image": "../assets/images/hindi/2isqudar.jpeg",
+              "song": "../assets/audio/hindi/Is Qadar.mp3",
+              "duration": "3 mins 46 Sec",
+              "genre": "Romantic"
+            },
+            {
+              "id": 2,
+              "title": "Masti ki Paathshala",
+              "artist": "Arijit Singh",
+              "image": "../assets/images/hindi/3Rangdebasanti.jpeg",
+              "song": "../assets/audio/hindi/Paatshala.mp3",
+              "duration": "3 mins 40 Sec",
+              "Genre": "Indie rock."
+            },
+            {
+              "id": 3,
+              "title": "Kuch kariye",
+              "artist": "Jagbir Dahiya",
+              "image": "../assets/images/hindi/4kuchkariye.jpeg",
+              "song": "../assets/audio/hindi/chak_de_india.mp3",
+              "duration": "3 mins 40 Sec",
+              "Genre": "Hippop-up"
+            },
+            {
+              "id": 4,
+              "title": "Brothers Anthem",
+              "artist": "Vishal Dadlani",
+              "image": "../assets/images/hindi/6brothers.jpeg",
+              "song": "../assets/audio/hindi/Brothers.mp3",
+              "duration": "5 mins 53 Sec",
+              "Genre": "Motivational"
+            },
+            {
+              "id": 5,
+              "title": "Trance",
+              "artist": "Arijit Singh",
+              "image": "../assets/images/hindi/6brothers.jpeg",
+              "song": "../assets/audio/hindi/Brothers.mp3",
+              "duration": "4.25",
+              "Genre": "Motivational"
+            },
+            {
+              "id": 6,
+              "title": "Brown Munde",
+              "artist": "AP Dhillon, Gurinder Gill, GMINXR, SHINDA KAHLON",
+              "album": "Superhit Indian Mp3 Songs Ever",
+              "image": "../assets/images/brown_munde.jpeg",
+              "song": "../assets/audio/Brown_Munde.mp3",
+              "duration": "4.25"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "album": "Love Songs",
+          "image": "../assets/images/albums/lovesong.jpeg",
+          "Love Songs": [
+            {
+              "id": 0,
+              "title": "Kaun Tujhe",
+              "artist": "Palak Muchhal",
+              "image": "../assets/images/hindi/5msdhoni.jpeg",
+              "song": "../assets/audio/hindi/kaun_tuje.mp3",
+              "duration": "4 mins 00 Sec",
+              "Genre": "Romantic"
+            },
+            {
+              "id": 1,
+              "title": "Brown Munde",
+              "artist": "AP Dhillon, Gurinder Gill, GMINXR, SHINDA KAHLON",
+              "image": "../assets/images/brown_munde.jpeg",
+              "song": "../assets/audio/Brown_Munde.mp3",
+              "duration": "4.25"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "album": "Travel Songs",
+          "image": "../assets/images/albums/travel.jpeg",
+          "Travel Songs": [
+            {
+              "id": 0,
+              "title": "Kabira",
+              "artist": "Arijit Singh",
+              "image": "../assets/images/hindi/5msdhoni.jpeg",
+              "song": "../assets/audio/hindi/Travel/journeysong.mp3",
+              "duration": "4 mins 12 Sec",
+              "genre": "Romantic"
+            },
+            {
+              "id": 1,
+              "title": "Dil Chahta Hai",
+              "artist": "Shankar Mahadevan, Clinton Cerejo",
+              "image": "../assets/images/hindi/5msdhoni.jpeg",
+              "song": "../assets/audio/hindi/Travel/dilchah.mp3",
+              "duration": "4 mins 00 Sec",
+              "genre": "Romantic"
+            },
+            {
+              "id": 2,
+              "title": "Woh Ladki Hai Kahan",
+              "artist": "Shaan, Kavita Krishnamurthy",
+              "image": "../assets/images/hindi/5msdhoni.jpeg",
+              "song": "../assets/audio/hindi/Travel/Woh Larki.mp3",
+              "duration": "4 mins 30 Sec",
+              "genre": "Romantic"
+            },
+            {
+              "id": 3,
+              "title": "Iktara",
+              "artist": "Shankar-Ehsaan-Loy",
+              "image": "../assets/images/hindi/5msdhoni.jpeg",
+              "song": "../assets/audio/hindi/Travel/Iktara.mp3",
+              "duration": "4 mins 00 Sec",
+              "genre": "Romantic"
+            },
+            {
+              "id": 4,
+              "title": "Illahi",
+              "artist": "Arijit Singh",
+              "image": "../assets/images/hindi/5msdhoni.jpeg",
+              "song": "../assets/audio/hindi/Travel/illahi.mp3",
+              "duration": "4 mins 00 Sec",
+              "genre": "Romantic"
+            },
+            {
+              "id": 5,
+              "title": "Khaabon Ke Parinday",
+              "artist": "Mohit Chauhan, Alyssa Mendonsa, Mohit Chauhan",
+              "image": "../assets/images/hindi/5msdhoni.jpeg",
+              "song": "../assets/audio/hindi/Travel/Khaabon Ke.mp3",
+              "duration": "4 mins 00 Sec",
+              "genre": "Romantic"
+            },
+            {
+              "id": 6,
+              "title": "O sanam",
+              "artist": "Lucky Ali",
+              "image": "../assets/images/hindi/5msdhoni.jpeg",
+              "song": "../assets/audio/hindi/Travel/O Sanam - Lucky Ali.mp3",
+              "duration": "4 mins 00 Sec",
+              "genre": "Romantic"
+            },
+            {
+              "id": 7,
+              "title": "Kahin to Hogi Woh",
+              "artist": "Sonu Nigham",
+              "image": "../assets/images/hindi/5msdhoni.jpeg",
+              "song": "../assets/audio/hindi/Travel/kahin to.mp3",
+              "duration": "4 mins 00 Sec",
+              "genre": "Romantic"
+            },
+            {
+              "id": 8,
+              "title": "Safarnama",
+              "artist": " Rashid Ali, Vasundhara Das",
+              "image": "../assets/images/hindi/5msdhoni.jpeg",
+              "song": "../assets/audio/hindi/Travel/safarnama.mp3",
+              "duration": "4 mins 00 Sec",
+              "genre": "Romantic"
+            },
+            {
+              "id": 9,
+              "title": "nazrein Milana",
+              "artist": "Sonu Nigham",
+              "image": "../assets/images/hindi/5msdhoni.jpeg",
+              "song": "../assets/audio/hindi/Travel/nazre milana.mp3",
+              "duration": "4 mins 00 Sec",
+              "genre": "Romantic"
+            },
+            {
+              "id": 10,
+              "title": "Dil Dhadakane",
+              "artist": "Sonu Nigham",
+              "image": "../assets/images/hindi/5msdhoni.jpeg",
+              "song": "../assets/audio/hindi//Travel/dil dhadakane.mp3",
+              "duration": "4 mins 00 Sec",
+              "genre": "Romantic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "marathi": [
+        {
+          "id": 0,
+          "album": "Latest Marathi",
+          "image": "../assets/images/albums/latestmara.jpeg",
+          "Latest Marathi": [
+            {
+              "id": 0,
+              "title": "Tik Tik Vajte",
+              "artist": "Ajay Atul",
+              "image": "../assets/images/marathi/1.jpeg",
+              "song": "../assets/audio/marathi/tik.mp3",
+              "duration": "4.25"
+            },
+            {
+              "id": 1,
+              "title": "Yara Yara",
+              "artist": "Shankar Mahadevan",
+              "image": "../assets/images/marathi/1.jpeg",
+              "song": "../assets/audio/marathi/yara.mp3",
+              "duration": "4.25"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "album": "Marathi Dance Hits",
+          "image": "../assets/images/albums/marathidance.jpeg",
+          "Marathi Dance Hits": [
+            {
+              "id": 0,
+              "title": "Zingat",
+              "artist": "Shankar Mahadevan",
+              "image": "../assets/images/marathi/sairat.jpeg",
+              "song": "../assets/audio/marathi/sairat.mp3",
+              "duration": "4.25"
+            },
+            {
+              "id": 1,
+              "title": "Yad Lagla",
+              "artist": "Ajay Atul",
+              "image": "../assets/images/marathi/sairat.jpeg",
+              "song": "../assets/audio/marathi/yadlagla.mp3",
+              "duration": "4.25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "english": [
+        {
+          "id": 0,
+          "album": "EDM Hits",
+          "image": "../assets/images/albums/edm.jpeg",
+          "EDM Hits": [
+            {
+              "id": 0,
+              "title": "Faded",
+              "artist": "Alan Walker",
+              "image": "../assets/images/English/faded1.jpg",
+              "song": "../assets/audio/english/Faded.mp3",
+              "duration": "4.25"
+            },
+            {
+              "id": 1,
+              "title": "Sorry",
+              "artist": "Alan Walker",
+              "image": "../assets/images/English/blankspace.jpeg",
+              "song": "../assets/audio/english/sorry.mp3",
+              "duration": "4.25"
+            },
+            {
+              "id": 2,
+              "title": "Wake Me up",
+              "artist": "Taylor Swift",
+              "image": "../assets/images/English/sorry.jpeg",
+              "song": "../assets/audio/english/wake_me_up.mp3",
+              "duration": "4.25"
+            },
+            {
+              "id": 3,
+              "title": "Blank Space",
+              "artist": "Taylor Swift",
+              "image": "../assets/images/English/blankspace.jpeg",
+              "song": "../assets/audio/english/Blank_space.mp3",
+              "duration": "4.25"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "album": "Top Hits 2021",
+          "image": "../assets/images/albums/topeng.jpeg",
+          "Top Hits 2021": [
+            {
+              "id": 0,
+              "title": "Sorry",
+              "artist": "Ed Sheeran",
+              "image": "../assets/images/English/faded1.jpg",
+              "song": "../assets/audio/english/sorry.mp3",
+              "duration": "4.25"
+            },
+            {
+              "id": 1,
+              "title": "Cold",
+              "artist": "Taylor Swift",
+              "image": "../assets/images/English/sorry.jpeg",
+              "song": "../assets/audio/english/neffex.mp3",
+              "duration": "4.25"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "user": [
+    {
+      "name": "",
+      "email": "",
+      "phone": "",
+      "password": "",
+      "image": "",
+      "id": 6
+    },
+    {
+      "name": "",
+      "email": "",
+      "phone": "",
+      "password": "",
+      "image": "",
+      "id": 7
+    },
+    {
+      "name": "",
+      "email": "",
+      "phone": "",
+      "password": "",
+      "id": 8
+    },
+    {
+      "name": "",
+      "email": "",
+      "phone": "",
+      "password": "",
+      "image": "",
+      "id": 9
+    },
+    {
+      "name": "admin",
+      "email": "admin@gmail.com",
+      "phone": "1234567898",
+      "password": "Admin1234",
+      "image": "",
+      "id": 10
+    },
+    {
+      "name": "",
+      "email": "",
+      "phone": "",
+      "password": "",
+      "image": "",
+      "id": 11
+    }
+  ],
+  "artist": [
+    {
+      "id": 0,
+      "name": "Arijit Singh",
+      "image": "../assets/images/artist/arjitsingh.jpeg",
+      "albums": [
+        "Top 10 Hindi",
+        "Love Songs",
+        "Travel Songs"
+      ],
+      "language": "hindi"
+    },
+    {
+      "id": 1,
+      "name": "Alan Walker",
+      "image": "../assets/images/artist/alanwalker.jpeg",
+      "albums": [
+        "EDM Hits",
+        "Top Hits 2021"
+      ],
+      "language": "english"
+    },
+    {
+      "id": 2,
+      "name": "Sonu Nigham",
+      "image": "../assets/images/artist/sonunigam.jpeg",
+      "albums": [
+        "Top 10 Hindi",
+        "Love Songs",
+        "Travel Songs"
+      ],
+      "language": "hindi"
+    },
+    {
+      "id": 3,
+      "name": "Taylor Swift",
+      "image": "../assets/images/artist/taylorswift.jpeg",
+      "albums": [
+        "EDM Hits",
+        "Top Hits 2021"
+      ],
+      "language": "english"
+    },
+    {
+      "id": 4,
+      "name": "Shankar Mahadevan",
+      "image": "../assets/images/artist/shankar.jpeg",
+      "albums": [
+        "Top 10 Hindi",
+        "Love Songs",
+        "Travel Songs"
+      ],
+      "language": "marathi"
+    },
+    {
+      "id": 5,
+      "name": "Ed Sheeran",
+      "image": "../assets/images/artist/edsherren.jpeg",
+      "albums": [
+        "EDM Hits",
+        "Top Hits 2021"
+      ],
+      "language": "english"
+    },
+    {
+      "id": 5,
+      "name": "Ajay Atul",
+      "image": "../assets/images/artist/ajay.jpeg",
+      "albums": [
+        "EDM Hits",
+        "Top Hits 2021"
+      ],
+      "language": "marathi"
+    }
+  ]
+}

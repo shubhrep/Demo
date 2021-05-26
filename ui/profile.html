@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <!--favicon-->
+	<link rel="icon" href="../assets/images/Index/fav.jpeg" type="image/gif" sizes="16x16">
+	<!--Bootstrap StyleSheet before All links-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<!--Style Sheet-->
+	<link rel="stylesheet" href="../css/profile.css">
+	<link rel="stylesheet" href="../css/style.css">
+	<!-- fontawesome link -->
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	<!--Jquery CDN-->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<title>Profile</title>
+</head>
+
+<body>
+
+	<!-- header starts here... -->
+	<header>
+		<nav class="navbar navbar-expand-md navbar-dark fixed-top black">
+			<a class="navbar-brand" href="./index.html"><i class="fa fa-music fa-2x fa-fw"> Planet M</i></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+				aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link text-white" href="../index.html">Home <span class="sr-only">(current)</span></a>
+					</li>&nbsp;&nbsp;
+					<li class="nav-item">
+						<a class="nav-link text-white" href="../index.html#about">About</a>
+					</li>&nbsp;&nbsp;
+					<li class="nav-item">
+						<a class="nav-link text-white" href="../index.html#gallary">Gallary</a>
+					</li>&nbsp;&nbsp;
+					<li class="nav-item">
+						<a class="nav-link text-white" href="./music.html">Music</a>
+					</li>&nbsp;&nbsp;
+					<li class="nav-item">
+						<a class="nav-link text-white" href="../index.html#contact">Contact</a>
+					</li>&nbsp;&nbsp;
+					<li class="nav-item profileLink">
+						<a class="nav-link text-white" href="./profile.html">Profile</a>
+					</li>&nbsp;&nbsp;
+
+				</ul>
+				<button class="btn btn-outline-danger text-white my-2 my-sm-0 regBtn #registerModal"
+					data-toggle="modal" data-target="#myModalReg"> Register
+				</button>&nbsp;&nbsp;
+				<button class="btn btn-outline-success text-white my-2 my-sm-0 loginBtn #loginmodal"
+					data-toggle="modal" data-target="#myModal"> Login
+				</button>
+				<button class="btn btn-outline-danger text-white my-2 my-sm-0 logoutBtn"> Logout
+				</button>
+			</div>
+		</nav>
+	</header>
+	<!-- end of header -->
+
+	<!--Side nave-->
+	<section class="profile-container">
+		<div class="row py-5 px-4">
+			<div class="col-xl-4 col-md-6 col-sm-10 mx-auto ">
+
+				<!-- Profile widget -->
+				<div class="bg-white shadow rounded overflow-hidden">
+					<div class="px-4 pt-0 pb-4 profileHead">
+						<div class="media align-items-end profile-header">
+						</div>
+					</div><!-- End profile widget -->
+
+				</div>
+				<div class="py-5 px-5">
+                    <div class="py-5">
+                        <h5 class="mb-5">Information</h5>
+                        <div class="p-4 bg-light rounded shadow-sm information">
+						</div>
+                    </div>
+                </div>
+			</div>
+		</div>
+	</section>
+
+	<section class="profile-edit collapse " id="profileEdit">
+		<div class="row">
+			<div class="col-xl-4 col-md-6 col-sm-10 mx-auto">
+	
+				<!-- Profile edit -->
+				<div class="bg-white shadow rounded overflow-hidden ">
+					<div class="px-4 pt-0 pb-4 profileedit">
+						<!-- Dynamic Data Loading -->
+					</div>
+					<div class="py-5 px-4 mt-2 pt-4 edit-button">
+                        <button class="btn btn-dark btn-sm btn-block text-white save-image" data-role="button" type="button"
+                        data-toggle="collapse" data-target=".update-image" aria-expanded="false" aria-controls="imgchange1 imgchange2">Edit image</button>
+                        <div class="text-white">
+                        <button class="btn btn-dark btn-sm btn-block text-white update-image mt-1 mb-1 collapse" id="imgchange2" data-role="button">update image</button>
+                    </div>
+                 </div>
+				<div class="py-5 px-5">
+                    <div class="py-5">
+                        <h5 class="mb-5">Profile settings</h5>
+                        <div class="p-4 bg-light rounded shadow-sm">
+                            <form method="post" class="form">
+							</form>
+                        </div>
+                    </div>
+                </div>
+			</div><!-- End profile edit -->
+                 
+		</div>
+	</div>
+
+
+	</section>
+
+	  <!---Footer section-->
+	  <footer>
+		<div class="footer">
+		  <div class="container ">
+			<div class="row text-center text-xs-center text-sm-left text-md-left">
+			  <div class="col-xs-12 col-sm-4 col-md-4">
+				<h5>Quick links</h5>
+				<ul class="list-unstyled quick-links">
+				  <li><a href="../index.html" class="text-white"><i class="fa fa-home"></i> Home</a></li>
+				  <li><a href="../index.html#about" class="text-white"><i class="fa fa-info-circle"></i> About</a></li>
+				  <li><a href="../index.html#contact" class="text-white"><i class="fa fa-phone"></i> Contact</a></li>
+				</ul>
+			  </div>
+			  <div class="col-xs-12 col-sm-4 col-md-4">
+				<h5>Quick links</h5>
+				<ul class="list-unstyled quick-links">
+				  <li><a href="../index.html" class="text-white"><i class="fa fa-home"></i> Home</a></li>
+				  <li><a href="../index.html#about" class="text-white"><i class="fa fa-info-circle"></i> About</a></li>				  
+				  <li><a href="../index.html#contact" class="text-white"><i class="fa fa-phone"></i> Contact</a></li>
+				</ul>
+			  </div>
+			  <div class="col-xs-12 col-sm-4 col-md-4">
+				<h5>Quick links</h5>
+				<ul class="list-unstyled quick-links">
+				  <li><a href="../index.html" class="text-white"><i class="fa fa-home"></i> Home</a></li>
+				  <li><a href="../index.html#about" class="text-white"><i class="fa fa-info-circle"></i> About</a></li>
+				  <li><a href="../index.html#contact" class="text-white"><i class="fa fa-phone"></i> Conatct</a></li>
+				</ul>
+			  </div>
+			</div>
+			<a href='#'><i class="fa fa-facebook fa-3x fa-fw"></i></a>
+			<a href='#'><i class="fa fa-twitter fa-3x fa-fw"></i></a>
+			<a href='#'><i class="fa fa-youtube-play fa-3x fa-fw"></i></a>
+			<a href='#'><i class="fa fa-linkedin fa-3x fa-fw"></i></a>
+		  </div>
+		  <h6 class="text-center text-white pt-3">Copyright @Fet_Group5</h6>
+		</div>
+	  </footer>
+	<!--script-->
+	<script src="../js/script.js"></script>
+	<script src="../js/profile.js"></script>
+
+	<!--Bootstrap CDN-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

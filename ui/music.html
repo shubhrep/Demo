@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--favicon-->
+  <link rel="icon" href="../assets/images/Index/fav.jpeg" type="image/gif" sizes="16x16">
+  <title>Music</title>
+  <!--Bootstrap StyleSheet before All links-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!--Style Sheet-->
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/music.css">
+  <!-- fontawesome link -->
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <!--Jquery CDN-->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <!-- header starts here... -->
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top black">
+      <a class="navbar-brand" href="../index.html"><i class="fa fa-music fa-2x fa-fw"> Planet M</i></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link text-white" href="../index.html">Home <span class="sr-only">(current)</span></a>
+          </li>&nbsp;&nbsp;
+          <li class="nav-item">
+            <a class="nav-link text-white" href="../index.html#about">About</a>
+          </li>&nbsp;&nbsp;
+          <li class="nav-item">
+            <a class="nav-link text-white" href="../index.html#gallery">Gallary</a>
+          </li>&nbsp;&nbsp;
+          <li class="nav-item">
+            <a class="nav-link text-white" id="musicLink" href="./music.html">Music</a>
+          </li>&nbsp;&nbsp;
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Language
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item langDropdown" id="0" name="lang" value="hindi" href="#">Hindi</a>
+
+              <a class="dropdown-item langDropdown" id="1" name="lang" value="marathi" href="#">Marathi</a>
+              <a class="dropdown-item langDropdown" id="2" name="lang" value="english" href="#">English</a>
+            </div>
+          </li>
+          <!-- <li><a class="language" href="#">Languages</a>
+            <ul class="dropdown">
+              <li><a href="#" class="hideme2" id="0" name="lang" value="hindi" selected>hindi</a></li>
+              <li><a href="#" class="hideme2" id="2" name="lang" value="english">english</a></li>
+              <li><a class="hideme2" href="#" id="1" name="lang" value="marathi">marathi</a></li>
+
+            </ul>
+          </li> -->
+
+          <li class="nav-item profileLink">
+            <a class="nav-link text-white" href="./profile.html">Profile</a>
+          </li>
+
+        </ul>
+        <button class="btn btn-outline-danger text-white my-2 my-sm-0 regBtn #registerModal" data-toggle="modal"
+          data-target="#myModalReg"> Register
+        </button>&nbsp;&nbsp;
+        <button class="btn btn-outline-success text-white my-2 my-sm-0 loginBtn #loginmodal" data-toggle="modal"
+          data-target="#myModal"> Login
+        </button>
+        <button class="btn btn-outline-danger text-white my-2 my-sm-0 logoutBtn"> Logout
+        </button>
+      </div>
+    </nav>
+  </header>
+  <!-- end of header -->
+  <!--side sections-->
+
+  <aside>
+    <div class="sideIcon">
+      <h4 id="user" class="text-center">Welcome </h4>
+      <a id="albumLink" href="#albums"><i class="fa fa-fw fa-th-list"></i> Albums</a>
+      <!-- <a id="recentlyLink" href="#recentlyPlayeds"><i class="fa fa-fw fa-play"></i> Recently Playeds</a> -->
+      <a id="artistsLink" href="#artists"><i class="fa fa-fw fa-users"></i> Artists</a>
+
+    </div>
+  </aside>
+  <div class="musicLibrary">
+    <!--Album list-->
+    <section id="albums">
+      <div class="container-fluid">
+        <h1 class="display-4 pt-5">Album</h1>
+        <hr class="bg-danger" />
+        <div class="row text-center albumcards">
+          <!--dynamic data load here-->
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Artists-->
+    <section id="artists">
+      <div class="container-fluid">
+        <h2 class="display-4 pt-5 ">Artist</h2>
+        <hr class="bg-danger" />
+        <div class="row text-center artistCards">
+          <!--dynamic data load here-->
+        </div>
+      </div>
+    </section>
+  </div>
+  <!--Song List-->
+  <section>
+    <div class="songList">
+      <!--After hitting Albums it will show songs here-->
+      <div class="table-wrapper-scroll-y my-custom-scrollbar">
+        <table class="table table-striped mb-0">
+          <tbody id="show-list">
+
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+  <section>
+    <!--Audio panel-->
+    <div id="audio_panel">
+      <!--Audio Player Fixed at bottom-->
+      <audio id="audioFile" preload="true">
+      </audio>
+      <div id="player">
+        <div class="song-img-group">
+          <h3 class="song-name"></h3>
+          <h4 class="artist-name"></h4>
+          <img id="album-art" alt="" />
+        </div>
+        <div id="bar">
+          <div id="currentTime"></div>
+          <div id="progress-bar">
+            <div id="progress"><i id="progressButton" class="fa fa-circle"></i></div>
+          </div>
+          <div id="totalTime"></div>
+        </div>
+        <div id="menu">
+          <button id="repeat" style="color:grey"><i class="fa fa-repeat"></i></button>
+          <button id="prev"><i class="fa fa-step-backward"></i></button>
+          <button id="play"><i class="fa fa-play"></i></button>
+          <button id="next"><i class="fa fa-step-forward"></i></button>
+          <button id="shuffle" style="color:grey"><i class="fa fa-random"></i></button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--script-->
+  <script src="../js/script.js"></script>
+  <script src="../js/music.js"></script>
+
+  <!--Bootstrap CDN-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>

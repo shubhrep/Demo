@@ -1,0 +1,42 @@
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  background-color: #222325;
+  text-align: center;
+}
+
+.footer .container {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  width: 100%;
+}
+
+.footer .container .fa-twitter {
+  color: #4099FF;
+}
+
+.footer .container .fa-facebook {
+  color: #184dc0;
+}
+
+.footer .container .fa-youtube-play {
+  color: #e52d27;
+}
+
+.footer .container .fa-linkedin {
+  color: #007bb6;
+}
+
+.footer .container .fa {
+  opacity: .7;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.footer .container .fa:hover {
+  opacity: 1;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+/*# sourceMappingURL=footer.css.map */

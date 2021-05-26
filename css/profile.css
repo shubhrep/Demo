@@ -1,0 +1,31 @@
+.profile-container, .profile-edit {
+  padding-top: 5rem;
+}
+
+.profile-container .labels, .profile-edit .labels {
+  font-size: 11px;
+  bottom: 1vh;
+}
+
+.profile-container .profile-pic, .profile-edit .profile-pic {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.profile-container .profile-header, .profile-edit .profile-header {
+  -webkit-transform: translateY(5rem);
+          transform: translateY(5rem);
+}
+
+.profile-container .edit-button, .profile-edit .edit-button {
+  width: 35%;
+}
+
+.profile-container .profileedit, .profile-edit .profileedit {
+  background-color: #B4AEE8;
+}
+
+.profile-container .profileHead, .profile-edit .profileHead {
+  background-color: #B4AEE8;
+}
+/*# sourceMappingURL=profile.css.map */

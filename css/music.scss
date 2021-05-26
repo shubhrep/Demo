@@ -1,0 +1,258 @@
+$bgColorMainSec : pink;
+$bgColourSideSec : #e3cde7;
+$sideSecColor : black;
+$sideHoverColor : #9c64a6;
+$colorWhite:white;
+$progressBarBg:#333;
+$progressBar:red;
+$bgPlayer : rgba(31, 27, 27, 0.63);
+$mobileDevice :  '(min-width: 0px) and (max-width: 600px)';
+
+.sideIcon{
+    height: 100%;
+    width: 15rem;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: $bgColourSideSec;
+    overflow-x: hidden;
+    padding-top: 15vh;
+    a {
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 15px;
+        color: $sideSecColor;
+        display: block;
+      }
+      a:hover {
+        color: $sideHoverColor;
+      }
+}
+.musicLibrary{
+    // background-color: $bgColorMainSec;
+    margin-left: 15rem;/* Same as the width of the sidenav */
+    padding-top: 15vh;
+  }
+
+.footer {
+  margin-left: 15rem;
+}
+
+#albums{
+    img{
+        height: 18rem;
+    }
+  
+}
+
+#artists{
+    img{
+        border-radius: 100%;
+        height: 15rem
+    }
+  
+}
+
+.my-custom-scrollbar {
+    position: relative;
+    height: 400px;
+    overflow: auto;
+    padding-top: 15vh;
+    margin-left: 15rem;
+    img{
+        width: 50px;
+        height: 50px;
+    }
+}
+.table-wrapper-scroll-y {
+    display: block;
+}
+
+
+.songList{
+    margin-left: 0;
+    padding-top: 0;
+
+}
+
+//Music Panel 
+.artist-name{ 
+    color: $colorWhite;
+    text-align: center;
+   
+  }
+.song-name{
+  color: $colorWhite;
+  text-align: center;
+}
+.album-art{
+  position: relative;
+  width: 50px;
+  height: 50px;
+}
+.song-img-group{
+  padding-top: 1vh;
+  padding-left: 4vh;
+  }
+  #album-art{ 
+    position:absolute;
+    width: 10%; 
+    height: auto; 
+    bottom: 4vh;
+  }
+  #player{
+    background: $bgPlayer;
+    position: fixed;
+    bottom: 0;
+    height: 25vh;
+    width: 100%;
+    z-index: 50;
+  }
+  #bar{
+    position:relative;
+    text-align: right;
+    width:100%;
+    padding-top: 5px;
+  }
+  #currentTime,#totalTime{
+      transform:translateY(-50%);
+      padding: 0 2%;
+      font-size: 3vh
+    }
+
+    #currentTime,#progress-bar,#totalTime{
+        color: $colorWhite;
+        display: inline-block;
+      }
+    #progress-bar{
+      position: relative;
+      text-align: center;
+      height: .25em;
+      width: 70%;
+      border: 1px solid #222;
+      background: $progressBarBg;
+      border-radius: 20px;
+      margin:0;
+      padding:0;
+      cursor: pointer;
+      transform: translateY(-160%);
+    }
+    #progress{
+      height:100%;
+      width:0%;
+      background: $progressBar;
+      border-radius: 20px;
+      text-align: right;
+      transition: ease all;
+    }
+    #progress > i{
+      position: absolute;
+      transform: translate(-50%,-35%);
+    }
+    #menu{
+      position:relative;
+      text-align: center;
+      width:100%;
+      overflow: hidden;
+    }
+    #menu > button{
+      padding: 10px 14px;
+      border-radius: 50%;
+      border: none;
+      margin: 0 5px;
+      background: inherit;
+      color: $colorWhite;
+      font-size: 15px;
+      text-align: center;
+      opacity: .75;
+      cursor: pointer;
+    }
+    #menu > button > i{
+      padding: 5px 3px 5px 5px;
+    }
+    #menu > button#play{
+      opacity: 1;
+      border: 2px solid $colorWhite;
+    }
+    #menu > button:focus{
+      outline: none;
+    }
+
+
+  //audio panel
+  @media only screen and (max-width: 340px){
+    #menu > button{ 
+      font-size: 5vh; 
+      padding: 4px 6px; 
+     }
+    #progress-bar{
+      width: 50%;
+    }
+  }
+
+  @media only screen and (min-height: 500px){
+    #currentTime,#totalTime{
+        font-size: 2.25vh ;
+      }
+
+      #player{
+        .artist-name{
+          font-size: 2vh;
+        }
+        .song-img-group{
+          .song-name{
+            font-size: 3vh;
+          }
+        }
+      }
+
+      #album-art{
+        bottom: 4vh;
+      }
+      
+  }
+  /* for mobile device */
+
+@media only screen and #{$mobileDevice}{
+  .songList{
+    .textSong{
+      font-size: 3vh;
+    }
+  }
+    .my-custom-scrollbar {
+      padding-top: 0;
+      margin-left: 0;
+      height: 200px;
+      }
+
+      .footer {
+        margin-left: 0;
+      }
+      
+  }
+
+  //mobile device
+@media  screen and  #{$mobileDevice} 
+{
+    .sideIcon{
+      height: auto;
+      width: 100%;
+      position: relative;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: $bgColourSideSec;
+    
+      padding-top: 15vh;
+
+        a{
+           display: flex;
+        }
+    }
+    .musicLibrary{
+      // background-color: $bgColorMainSec;
+      margin-left: 0;/* Same as the width of the sidenav */
+      padding-top: 0;
+    }
+}
